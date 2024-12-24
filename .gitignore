@@ -4,3 +4,5 @@
 02-deep-learning/models/*
 .*
 !/.gitignore
+*.jpg
+*.wav
