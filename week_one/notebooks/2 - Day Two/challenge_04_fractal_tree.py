@@ -12,7 +12,7 @@ import turtle
 # Create our turtle and screen
 screen = turtle.Screen()
 screen.bgcolor("lightblue")
-screen.setup(800, 600)
+screen.setup(800, 800)
 screen.title("Challenge 4: Draw a Simple Tree")
 
 # Meet kheya, your turtle friend!
@@ -72,6 +72,14 @@ for i in range(num_branches):
     # Draw left branch
     kheya.setheading(135)  # Point up and left
     # Your code: draw the left branch
+    kheya.forward(branch_length)
+    # Optional: Add some randomness to branch length or angle
+    kheya.backward(branch_length)  # Go back to trunk
+    kheya.setheading(90)  # Point straight up again
+    kheya.penup()
+    kheya.goto(start_x, start_y + branch_height)  # Go back to trunk position
+    kheya.pendown()
+    kheya.setheading(45)   # Point up and right
     
     
     # Go back to trunk
