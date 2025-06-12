@@ -4,7 +4,10 @@
       "Bash(mv:*)",
       "Bash(ls:*)",
       "WebFetch(domain:github.com)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:www.ncei.noaa.gov)",
+      "WebFetch(domain:www.nationalparked.com)",
+      "WebFetch(domain:crazyhorsememorial.org)"
     ],
     "deny": []
   }

@@ -1,0 +1,14 @@
+Day 1
+- One Module, maybe. Mostly board-driven lecture and introduction to AI. Overview of everything we were downloading. Day 1 00
+
+Day 2
+- Variables and Data types
+- 
+
+Day 3
+- 2A without Conditionals
+- Teachable Machines
+- Turtle Challenges
+
+Day 4
+- 
