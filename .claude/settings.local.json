@@ -7,7 +7,10 @@
       "Bash(find:*)",
       "WebFetch(domain:www.ncei.noaa.gov)",
       "WebFetch(domain:www.nationalparked.com)",
-      "WebFetch(domain:crazyhorsememorial.org)"
+      "WebFetch(domain:crazyhorsememorial.org)",
+      "Bash(python3:*)",
+      "Bash(cp:*)",
+      "Bash(python:*)"
     ],
     "deny": []
   }
