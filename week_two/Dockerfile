@@ -24,11 +24,13 @@ ENV PYTHONUNBUFFERED=1 \
 
 # Upgrade pip and install Python packages
 RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir \
+        fastai==2.7.12 \
+        numpy==1.24.4 \
+        pandas==1.5.3 \
+        matplotlib==3.7.1 \
         nbdev \
         gradio \
         jupyter \
-        fastai \
         timm
 
 # Clean up NVIDIA sample files (corrected to /workspace)
