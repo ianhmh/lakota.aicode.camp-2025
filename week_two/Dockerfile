@@ -31,7 +31,9 @@ RUN pip install --no-cache-dir --upgrade pip \
         nbdev \
         gradio \
         jupyter \
-        timm
+        timm \
+        audiomentations \
+        librosa
 
 # Clean up NVIDIA sample files (corrected to /workspace)
 RUN rm -rf /workspace/docker-examples \
