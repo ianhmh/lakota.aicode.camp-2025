@@ -3,6 +3,6 @@ week_two/data/*
 week_two/images/*
 week_two/models/*
 week_two/*/cache
-**/models/
+week_two/notebooks/**/models/
 .*
 !/.gitignore
