@@ -4,9 +4,12 @@ This unit was created to leverage the fast.ai library to support learners in cre
 
 # Setup:
 
-## 1. Build docker image
+## Note: The following commands should be run from the directory that this file is located in ##
+
+## 1. Build docker image (in Windows Terminal)
 ```
 docker build -t jupyter/deep_learning .
+
 ```
 
 ## 2. Run your image (this run command is intended for forked repos)
