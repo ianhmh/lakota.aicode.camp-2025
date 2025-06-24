@@ -1,6 +1,14 @@
 
-02-deep-learning/data/*
-02-deep-learning/images/*
-02-deep-learning/models/*
+week_two/data/*
+week_two/images/*
+week_two/models/*
+week_two/*/cache
+week_two/notebooks/**/models/
+
+week_three/data/*
+week_three/images/*
+week_three/models/*
+week_three/*/cache
+week_three/notebooks/**/models/
 .*
 !/.gitignore
